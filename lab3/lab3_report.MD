@@ -74,7 +74,9 @@ minikube tunnel
 Открываем страницу с адресом  `https://gosha.local/`
 
 ![open_site](screens/goshalocal.png)
-
+![open_site1](screens/goshalocal1.png)
+![open_site2](screens/goshalocal2.png)
+![open_site3](screens/goshalocal3.png)
 ## Схема
 
 ![scheme](screens/scheme.png)
