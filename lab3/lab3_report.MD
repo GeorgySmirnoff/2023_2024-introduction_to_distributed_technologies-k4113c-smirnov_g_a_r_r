@@ -57,48 +57,24 @@ minikube addons enable ingress
 ![ingress](screens/ingress.png)
 
 ### 5. Создание Secret
-```yml
-apiVersion: v1
-kind: Secret
-metadata:
-  name: lab3-tls
-type: kubernetes.io/tls
-stringData:
-  tls.crt: |
-    -----BEGIN CERTIFICATE-----
 
-    -----END CERTIFICATE-----
-  tls.key: |
-    -----BEGIN PRIVATE KEY-----
-
-    -----END PRIVATE KEY-----
-```
-
-### 6. Запуск деплоймента
-Для применения всего написанного в манифесте выполним команду:
-```
-kubectl apply -f deployment.yaml
-```
+![secret](screens/secret.png)
 
 ### 6. Перейдем в браузер
 Для начала необходимо добавить запись в файл `hosts`, чтобы связать ip-адрес и доменное имя:
 
-![hosts](pic/pic4.png)
+![hosts](screens/hosts.png)
 
 Подключаемся к Ingress командой с помощью команды:
 ```
 minikube tunnel
 ```
+![tunnel](screens/tunnel.png)
 
-Открываем страницу с адресом  `https://danya1234.com/`
+Открываем страницу с адресом  `https://gosha.local/`
 
-![open_site](pic/pic1.png)
-
-### 7. Проверка наличия сертификата
-Ниже представленны данные сертификата:
-
-![view_certificate](pic/pic2.png)
+![open_site](screens/goshalocal.png)
 
 ## Схема
 
-![scheme](pic/pic5.png)
+![scheme](screens/scheme.png)

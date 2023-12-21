@@ -5,5 +5,5 @@ metadata:
   labels:
     app: lab3
 data:
-  react_app_username: "Smirnov Georgy"
-  react_app_company_name: "ITMO"
+  REACT_APP_USERNAME: Smirnov Georgy
+  REACT_APP_COMPANY_NAME: ITMO
