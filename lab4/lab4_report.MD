@@ -30,7 +30,7 @@ Date of finished: 21.12.2023
 ![ippool](screens/ippool.png)
 
 - Удаляем дефолтный Ippools и создаем свои
-![ippool](screens/delete_create_ippool.png.png)
+![ippool](screens/delete_create_ippool.png)
 
 - Создаем манифест из 2 лр и запускаем на 8000 порту приложение
 ![a1](screens/deployment.png)
